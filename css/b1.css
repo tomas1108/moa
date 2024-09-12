@@ -1,0 +1,92 @@
+
+/*css banner*/
+.image-container {
+    position: relative;
+    width: 100%; 
+    max-width: auto; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 0 10px 0;
+  }
+  
+  .background-image {
+    width: 980px; 
+    height: 400px; 
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .title {
+    font-size: 2em; 
+  }
+  
+
+/*content*/
+
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /*css paragraph*/
+  .content-paragraph{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+  
+  }
+  .content-paragraph .bigest-text span{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content-paragraph .medium-text span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  /*button*/
+
+
+  .button-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .button {
+    background-color: black; 
+    color: white; 
+    padding: 15px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 15px; 
+    transition: background-color 0.3s; 
+    display: flex;
+    position: relative;
+  }
+  
+  .button:hover {
+    background-color: #ff5e5e; 
+    color: rgb(255, 255, 255);
+  }

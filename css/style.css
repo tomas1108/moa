@@ -1,0 +1,86 @@
+
+/*css banner*/
+.banner-bar {
+  margin: 0;
+  padding: 0;
+  background-image: url('../image/banner.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+}
+
+.banner-title {
+  width: 100%;
+  height: 60px;
+  padding-bottom: 10px;
+
+}
+
+.banner-title span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner-paragraph {
+  width: 100%;
+  height: 50px;
+}
+
+.banner-paragraph span {
+  font-size: 16px;
+  line-height: 1.5; 
+}
+
+/*css content*/
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  background-color: black;
+}
+
+/*css image*/
+
+.content-image{
+  width: 100%;
+  height: auto;
+}
+.content-image img{
+  width: 528px;
+  height: 208px;
+}
+/*css paragraph*/
+.content-paragraph{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+
+}
+.content-paragraph .bigest-text span{
+  font-size: 50px;
+}
+.content-paragraph .big-text span{
+  font-size: 28px;
+}
+.content-paragraph .medium-text span{
+  font-size: 20px;
+}
+
+
+

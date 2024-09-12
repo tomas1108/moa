@@ -1,0 +1,156 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*css header*/
+
+header {
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  height: calc(100% - (var(--menuTotalBordersY, 0px)));
+  overflow: visible;
+  white-space: nowrap;
+  width: calc(100% - (var(--menuTotalBordersX, 0px)));
+  position: relative; 
+}
+
+.header-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: auto;
+}
+
+li {
+  display: inline-block;
+}
+
+li .main, .sub-main {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px 20px 0;
+  text-decoration: none;
+  font-size: large;
+}
+li .main{
+  color: red;
+  font-weight: bold;
+}
+li a:hover{
+  color: rgb(240, 240, 195);
+}
+
+
+/* Styles for the more-links */
+.header-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+  position: relative;
+}
+
+.more {
+  position: relative; /* Để định vị hộp liên kết */
+}
+
+.more-links {
+  position: absolute;
+  background-color: rgb(35, 35, 35);
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  top: 100%; 
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  pointer-events: none;
+  z-index: 10; /* Đảm bảo hộp hiện lên trên các phần tử khác */
+}
+
+.more:hover .more-links {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.more-links li {
+  display: block;
+}
+
+.more-links a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.more-links a:hover {
+  color: rgb(240, 240, 195);
+}
+
+
+
+/* phone*/
+/*
+@media only screen and (min-width: 320px) and (max-width: 860px) {
+
+  .header-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 35);
+    width: 100%; 
+  }
+  .header-bar li {
+    text-align: center; 
+  }
+  
+  .header-bar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  .header-bar a:hover {
+    color: rgb(240, 240, 195);
+  }
+  
+  /*.more-links {
+    display: none; 
+    position: absolute;
+    background-color: rgb(35, 35, 35);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    top: 100%; 
+    right: 0;
+  }
+  
+  .more:hover .more-links {
+    display: block; 
+  }
+  
+
+  .banner-title span {
+    font-size: 1.5em;
+  }
+
+  .banner-paragraph span {
+    font-size: 1em; 
+  }
+}*/
